@@ -28,6 +28,14 @@ const routes = [
         path: '/users', 
         component: () => import('@/components/user/Users')
       },
+      { 
+        path: '/rights', 
+        component: ()=>import('@/components/power/Rights')
+      },
+      { 
+        path: '/roles', 
+        component: ()=>import('@/components/power/Roles')
+      },
     ]
   },
 ]
